@@ -1,5 +1,3 @@
-let giocatore1 = 1
-let giocatore2 = 100
 
 // let giocatore1 = document.getElementById("gioc1") as HTMLInputElement;
 // let value1 = parseInt(giocatore1?.value);
@@ -8,6 +6,8 @@ let giocatore2 = 100
 // let giocatore2 = document.getElementById("gioc2") as HTMLInputElement;
 // let value2 = parseInt(giocatore2?.value);
 // console.log(value2);
+let giocatore1 = 1
+let giocatore2 = 100
 
 function createRandomNumber() {
   let numberRandom: number = Math.floor(Math.random() * (100 - 1) + 1);
